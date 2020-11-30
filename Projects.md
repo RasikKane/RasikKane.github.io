@@ -24,7 +24,7 @@ k-means clustering is a partition based on centroids. DBSCAN clustering, in cont
 Even in abscense of ground truth; Quantitive performance evaluation for unsupervised learning algorithms can be done using <a href="https://scikit-learn.org/stable/modules/clustering.html#silhouette-coefficient">Silhoutte score</a> and <a href="https://scikit-learn.org/stable/modules/clustering.html#calinski-harabasz-index">calinski harabasz score</a><br>
 
 
-<h2><b><a href="https://github.com/RasikKane/Data-Science-and-Machine-learning/tree/master/Gender-Detection">Gender detection using nltk's Naive Bayes classifier</a></b></h2> <br>
+<h2><b><a href="https://github.com/RasikKane/Data-Science-and-Machine-learning/tree/master/Gender-Detection">Gender detection using nltk's Naive Bayes classifier</a></b></h2>
 Check the link to know how Naive Bays classifier mitigates a potential challenge with Bays classifier that is – predicating conditional probability of all feature vector tuples given a label. Instead, Naïve Bayes Classifier considers all features conditionally independent.<br>
 
 <h2><b><a href="https://medium.com/@rasik.kane/unified-iot-ecosystem-539bb3a41d87">Unified IoT Ecosystem</a></b></h2>
