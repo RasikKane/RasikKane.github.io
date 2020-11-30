@@ -28,4 +28,5 @@ Even in abscense of ground truth; Quantitive performance evaluation for unsuperv
 Check the link to know how Naive Bays classifier mitigates a potential challenge with Bays classifier that is – predicating conditional probability of all feature vector tuples given a label. Instead, Naïve Bayes Classifier considers all features conditionally independent.<br>
 
 <h2><b><a href="https://medium.com/@rasik.kane/unified-iot-ecosystem-539bb3a41d87" target="_blank">Unified IoT Ecosystem</a></b></h2>
+<a href="https://drive.google.com/file/d/11XP_9Xp39mMYtifTvg_aa_-IOxtwjSYm/view" target="_blank">TADHACK’17– India winner </a><br>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/kVgWxdBe9uk?rel=0" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture"></iframe></div>

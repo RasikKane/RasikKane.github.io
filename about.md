@@ -24,7 +24,7 @@ Trekking and Reading History is joy for me. I have authored a couple of one act 
 </p>
 <br />
 
-Connect with me on [Linkedin](https://www.linkedin.com/in/kanerasik/) or at [rasik.kane@gmail.com](mailto:rasik.kane@gmail.com)
+Connect with me on [Linkedin](https://www.linkedin.com/in/rasikkane/) or at [rasik.kane@gmail.com](mailto:rasik.kane@gmail.com)
 
 Thanks for reading my story!
 
