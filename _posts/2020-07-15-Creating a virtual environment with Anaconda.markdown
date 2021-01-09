@@ -37,7 +37,7 @@ Anaconda comes with Conda and Anaconda navigator. Conda is an open source packag
 
 ### Create conda venv
 #### I want to create **virtual environment by name *'torch'***, as I wish to install pytorch. Type following command in command prompt.
-```cmd
+```
 C:\Users\rasik>conda create --name torch
 ```
 #### conda asks for permission to proceed
@@ -51,13 +51,9 @@ Proceed ([y]/n)? y
 Preparing transaction: done
 Verifying transaction: done
 Executing transaction: done
-#
 # To activate this environment, use
-#
 #     $ conda activate torch
-#
 # To deactivate an active environment, use
-#
 #     $ conda deactivate
 ```
 #### After activation, user can find out externally installed packages. As expected, it is empty. 
@@ -65,7 +61,6 @@ Executing transaction: done
 C:\Users\rasik>conda activate torch
 (torch) C:\Users\rasik> conda list -n torch
 # packages in environment at C:\Users\rasik\Anaconda3\envs\torch:
-#
 # Name                    Version                   Build  Channel
 ```
 #### Install pytorch *[for deep Neural Networks]*
@@ -73,15 +68,11 @@ C:\Users\rasik>conda activate torch
 (torch) C:\Users\rasik>conda install pytorch
 Collecting package metadata (current_repodata.json): done
 Solving environment: done
-
 ## Package Plan ##
   environment location: C:\Users\rasik\Anaconda3\envs\torch
-
   added / updated specs:
     - pytorch
-
 The following packages will be downloaded:
-
     package                    |            build
     ---------------------------|-----------------
     _pytorch_select-0.1        |            cpu_0           4 KB
@@ -95,7 +86,6 @@ The following packages will be downloaded:
                                            Total:       123.0 MB
 
 The following NEW packages will be INSTALLED:
-
   _pytorch_select    pkgs/main/win-64::_pytorch_select-0.1-cpu_0
   blas               pkgs/main/win-64::blas-1.0-mkl
   ca-certificates    pkgs/main/win-64::ca-certificates-2020.12.8-haa95532_0
@@ -114,17 +104,9 @@ Downloading and Extracting Packages
 mkl_random-1.0.4     | 287 KB    | ############################################################ | 100%
 _pytorch_select-0.1  | 4 KB      | ############################################################ | 100%
 mkl-service-2.3.0    | 45 KB     | ############################################################ | 100%
-certifi-2020.12.5    | 141 KB    | ############################################################ | 100%
-cffi-1.14.4          | 243 KB    | ############################################################ | 100%
-vc-14.2              | 8 KB      | ############################################################ | 100%
-setuptools-51.0.0    | 726 KB    | ############################################################ | 100%
-vs2015_runtime-14.27 | 1007 KB   | ############################################################ | 100%
-pip-20.3.3           | 1.8 MB    | ############################################################ | 100%
-six-1.15.0           | 51 KB     | ############################################################ | 100%
-ninja-1.10.2         | 246 KB    | ############################################################ | 100%
+....
 pytorch-1.6.0        | 101.1 MB  | ############################################################ | 100%
 libmklml-2019.0.5    | 17.5 MB   | ############################################################ | 100%
-wheel-0.36.2         | 33 KB     | ############################################################ | 100%
 Preparing transaction: done
 Verifying transaction: done
 Executing transaction: done
@@ -134,13 +116,7 @@ Executing transaction: done
 (torch) C:\Users\rasik>jupyter notebook
     To access the notebook, open this file in a browser:
         file:///C:/Users/rasik/AppData/Roaming/jupyter/runtime/nbserver-21512-open.html
-    Or copy and paste one of these URLs:
-        http://localhost:8888/?token=f50975c6f18f5188f3f54714292943b2929087578032df13
-     or http://127.0.0.1:8888/?token=f50975c6f18f5188f3f54714292943b2929087578032df13
-[W 16:21:01.052 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210109162058 (::1) 6.98ms referer=http://localhost:8888/tree
-[I 16:21:25.126 NotebookApp] Creating new notebook in
-[I 16:21:25.864 NotebookApp] Kernel started: d3bc3148-612a-4734-804d-6d4b5b5ad32e
-[W 16:21:25.872 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20210109162058 (::1) 6.98ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+.....
 [W 16:21:25.895 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20210109162058 (::1) 2.99ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
 [I 16:23:25.811 NotebookApp] Saving file at /Untitled.ipynb
 ```
@@ -159,9 +135,6 @@ Collecting ipykernel
 Collecting ipython>=5.0.0
   Downloading ipython-7.19.0-py3-none-any.whl (784 kB)
      |████████████████████████████████| 784 kB ...
-Collecting traitlets>=4.1.0
-  Downloading traitlets-5.0.5-py3-none-any.whl (100 kB)
-     |████████████████████████████████| 100 kB 6.8 MB/s
 .....
 .....     
 ```
