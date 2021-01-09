@@ -16,25 +16,27 @@ description: Installation and launching jupyter notebook with selected conda env
 author: Rasik Kane
 ---
 
-
 # Anaconda
-Anaconda comes with Conda and Anaconda navigator. Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda helps to find and isntall packages. [List of packages](https://docs.anaconda.com/anaconda/packages/pkg-docs/) can be refered for details.
+Anaconda comes with Conda and Anaconda navigator. Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda helps to find and isntall packages.
 
-## Download anaconda installer and install anaconda:
+
+## Download anaconda installer and install anaconda
 * Latest Anaconda installers are available for [download](https://www.anaconda.com/products/individual)
 
-## List of packages:
+
+## List of packages
 * [Anaconda package list](https://docs.anaconda.com/anaconda/packages/pkg-docs/) is available for users to review
 * From DS and ML point of view, considering a latest conda version for 64-bit Windows with Python 3.7:
   * **Installer Built in packages**: [async_generator](https://github.com/python-trio/async_generator), [beautifulsoup4](http://www.crummy.com/software/BeautifulSoup/), [bkcharts](http://github.com/bokeh/bkcharts), [bokeh](http://bokeh.pydata.org/), [curl](http://curl.haxx.se/), [cython](http://www.cython.org/), [dask](https://dask.org/), [flask](http://flask.pocoo.org/), [hdf5](http://www.hdfgroup.org/HDF5/), [ipython](https://ipython.org/), [jedi](https://github.com/davidhalter/jedi/), [jupyter](http://jupyter.org/), [matplotlib](http://matplotlib.org/), [networkx](https://networkx.github.io/), [nltk](http://nltk.org/), [numpy](http://numpy.scipy.org/), [pandas](http://pandas.pydata.org/), [pathlib2](https://github.com/mcmtroffaes/pathlib2), [pep8](http://pep8.readthedocs.org/), [pytest](https://docs.pytest.org/en/latest/), [regex](https://bitbucket.org/mrabarnett/mrab-regex), [scipy](http://www.scipy.org/), [sqlalchemy](http://www.sqlalchemy.org/),  [tqdm](https://pypi.python.org/pypi/tqdm)
   * **Available packages**: [arrow](https://github.com/crsmithdev/arrow), [azure](https://github.com/Azure/azure-sdk-for-python), [blaze](http://blaze.pydata.org/), [chainer](https://chainer.org/), [coverage](https://coverage.readthedocs.io/), [cudnn](https://docs.anaconda.com/anaconda/packages/py3.7_win-64/None), [dask-ml](http://github.com/dask/dask-ml), [django](http://www.djangoproject.com/), [elasticsearch](https://github.com/elastic/elasticsearch-py), [fastparquet](http://github.com/dask/fastparquet), [git](https://git-scm.com/), [graphviz](http://www.graphviz.org/), [mysql](https://www.mysql.com/), [nginx](http://www.nginx.org/), [nodejs](https://nodejs.org/), [opencv](http://opencv.org/), [plotly](https://plot.ly/python/), [pyspark](http://spark.apache.org/), [pytorch](http://pytorch.org/), [pytorch-gpu](https://docs.anaconda.com/anaconda/packages/py3.7_win-64/None), [scikit-learn](http://scikit-learn.org/), [seaborn](https://seaborn.pydata.org/), [torchvision](http://pytorch.org/), [tensorflow](http://tensorflow.org/), [tensorflow-gpu](http://tensorflow.org/), [teradata](http://github.com/teradata/PyTd), [virtualenv](https://virtualenv.pypa.io/)
 
+
 ## Creating conda environment
 * Anaconda guide for creating a python virtual environment can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 * Once acustomed with conda, users can refer to [cheet sheet](https://conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf) for quick reference.
 
-## Example For windows 10
 
+## Example For creating conda environment with pytorch on windows 10
 ### Create conda venv
 #### I want to create **virtual environment by name *'torch'***, as I wish to install pytorch. Type following command in command prompt.
 ```
