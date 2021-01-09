@@ -78,10 +78,8 @@ The following packages will be downloaded:
     package                    |            build
     ---------------------------|-----------------
     _pytorch_select-0.1        |            cpu_0           4 KB
-    certifi-2020.12.5          |   py37haa95532_0         141 KB
 ....
     pytorch-1.6.0              |cpu_py37h538a6d7_0       101.1 MB
-....
     vs2015_runtime-14.27.29016 |       h5e58377_2        1007 KB
     wheel-0.36.2               |     pyhd3eb1b0_0          33 KB
     ------------------------------------------------------------
@@ -90,25 +88,20 @@ The following packages will be downloaded:
 The following NEW packages will be INSTALLED:
   _pytorch_select    pkgs/main/win-64::_pytorch_select-0.1-cpu_0
   blas               pkgs/main/win-64::blas-1.0-mkl
-  ca-certificates    pkgs/main/win-64::ca-certificates-2020.12.8-haa95532_0
 ....
-  openssl            pkgs/main/win-64::openssl-1.1.1i-h2bbff1b_0
 ....
   pytorch            pkgs/main/win-64::pytorch-1.6.0-cpu_py37h538a6d7_0
-  setuptools         pkgs/main/win-64::setuptools-51.0.0-py37haa95532_2
-  six                pkgs/main/win-64::six-1.15.0-py37haa95532_0
-....
   wincertstore       pkgs/main/win-64::wincertstore-0.2-py37_0
   zlib               pkgs/main/win-64::zlib-1.2.11-h62dcd97_4
 
 Proceed ([y]/n)? y
 Downloading and Extracting Packages
-mkl_random-1.0.4     | 287 KB    | ############################################################ | 100%
-_pytorch_select-0.1  | 4 KB      | ############################################################ | 100%
-mkl-service-2.3.0    | 45 KB     | ############################################################ | 100%
+mkl_random-1.0.4     | 287 KB    | #################### | 100%
+_pytorch_select-0.1  | 4 KB      | #################### | 100%
+mkl-service-2.3.0    | 45 KB     | #################### | 100%
 ....
-pytorch-1.6.0        | 101.1 MB  | ############################################################ | 100%
-libmklml-2019.0.5    | 17.5 MB   | ############################################################ | 100%
+pytorch-1.6.0        | 101.1 MB  | #################### | 100%
+libmklml-2019.0.5    | 17.5 MB   | #################### | 100%
 Preparing transaction: done
 Verifying transaction: done
 Executing transaction: done
@@ -123,7 +116,7 @@ Executing transaction: done
 [I 16:23:25.811 NotebookApp] Saving file at /Untitled.ipynb
 ```
 ### Handling error in loading environment
-**Often we note that despite launching jupyter from virtua environment, jupyter launches in base environment**
+**Often we note that despite launching jupyter from virtual environment, jupyter launches in base environment**
 * So, as noted below, *import torch* is not recognised inside a newly opened jupyter notebook
 <img src="/images/p2/output_2_1.png">
 * This happens because jupyter kernel attached with new conda environment does not exist. **To overcome this situation, we have to manually add a kernel with a different version of Python or a virtual environment.**
