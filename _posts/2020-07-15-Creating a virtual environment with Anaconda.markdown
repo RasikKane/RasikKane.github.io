@@ -75,24 +75,24 @@ Solving environment: done
   added / updated specs:
     - pytorch
 The following packages will be downloaded:
-    package                    |            build
+    package                    | build
     ---------------------------|-----------------
-    _pytorch_select-0.1        |            cpu_0           4 KB
+    _pytorch_select-0.1        | cpu_0           4 KB
 ....
-    pytorch-1.6.0              |cpu_py37h538a6d7_0       101.1 MB
-    vs2015_runtime-14.27.29016 |       h5e58377_2        1007 KB
-    wheel-0.36.2               |     pyhd3eb1b0_0          33 KB
+    pytorch-1.6.0              | cpu_py37h538a6d7_0       101.1 MB
+    vs2015_runtime-14.27.29016 | h5e58377_2        1007 KB
+    wheel-0.36.2               | pyhd3eb1b0_0          33 KB
     ------------------------------------------------------------
                                            Total:       123.0 MB
 
 The following NEW packages will be INSTALLED:
-  _pytorch_select    pkgs/main/win-64::_pytorch_select-0.1-cpu_0
-  blas               pkgs/main/win-64::blas-1.0-mkl
+  _pytorch_select  pkgs/main/win-64::_pytorch_select-0.1-cpu_0
+  blas             pkgs/main/win-64::blas-1.0-mkl
 ....
 ....
-  pytorch            pkgs/main/win-64::pytorch-1.6.0-cpu_py37h538a6d7_0
-  wincertstore       pkgs/main/win-64::wincertstore-0.2-py37_0
-  zlib               pkgs/main/win-64::zlib-1.2.11-h62dcd97_4
+  pytorch          pkgs/main/win-64::pytorch-1.6.0-cpu_py37h538a6d7_0
+  wincertstore     pkgs/main/win-64::wincertstore-0.2-py37_0
+  zlib             pkgs/main/win-64::zlib-1.2.11-h62dcd97_4
 
 Proceed ([y]/n)? y
 Downloading and Extracting Packages
