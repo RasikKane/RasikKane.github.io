@@ -133,6 +133,9 @@ Collecting ipython>=5.0.0
 .....
 .....     
 ```
+
+## Solve common hurdles
+
 ### Add conda environment to Jupyter kernel
 * **As noticed, after running following commands, new kernel "torch" is detected and command *import torch* works successfully**
 ```
@@ -140,3 +143,17 @@ Collecting ipython>=5.0.0
 Installed kernelspec torch in C:\Users\rasik\AppData\Roaming\jupyter\kernels\torch
 ```
 <img src="/images/p2/output_2_2.png">
+
+### Add Code completion on TAB
+**Sometimes, code completion/ suggestions with TAB does not work**
+Follwing workaround works in most cases:
+```
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextensions_configurator enable --user
+```
+* If [jedi](https://pypi.org/project/jedi/) is installed and user wants to keep it, it may cause problem with autocompletion.
+* **Include following codeline in your notebook to ignore jedi**
+```Ipython
+%config Completer.use_jedi = False
+``` 
