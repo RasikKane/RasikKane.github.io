@@ -154,6 +154,6 @@ jupyter nbextensions_configurator enable --user
 ```
 * If [jedi](https://pypi.org/project/jedi/) is installed and user wants to keep it, it may cause problem with autocompletion.
 * **Include following codeline in your notebook to ignore jedi**
-```Ipython
+```python
 %config Completer.use_jedi = False
 ``` 
