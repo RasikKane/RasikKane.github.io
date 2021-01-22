@@ -157,3 +157,9 @@ jupyter nbextensions_configurator enable --user
 ```python
 %config Completer.use_jedi = False
 ``` 
+
+## Conda environment - common commands
+### Update all environment packages
+```cmd
+conda update -n name_of_environment --all
+```
