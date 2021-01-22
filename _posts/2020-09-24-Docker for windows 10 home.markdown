@@ -30,11 +30,12 @@ A [Docker container image](https://www.docker.com/resources/what-container) is a
 
 ### Step 1 : System requirements
 * Ensure that you ae running Windows 10 ***home***
-  * For x64 systems: Version 1903 or higher, with Build 18362 or higher.
+  * As of Jan 2021, For x64 systems: Version 1903 or higher, with Build 18362 or higher.
 * To check version, start run mode:
 ```windows-R```
 * Then type and enter:
 ```winver```
+* Latest update for windows 10 home is available [here](https://www.microsoft.com/en-gb/software-download/windows10)
 
 ### step 2. Install WSL
 Go to [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-1---enable-the-windows-subsystem-for-linux) and **Follow steps 1 - 5**
