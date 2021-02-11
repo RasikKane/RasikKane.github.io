@@ -45,7 +45,7 @@ latest docker for windows 10 home can be found [here](https://desktop.docker.com
 
 <br>
 
-## Getting started with your first container
+## Getting started : CRUD operations
 
 ### Create a container
 launch you powershell / command prompt and create yuor environment.
@@ -60,12 +60,7 @@ docker run -tid --name my_Container_Name docker_image_url
 
 ### Start a container
 ```powershell
-docker start your_Container_Name
-```
-
-### Stop a container
-```powershell
-docker stop my_container_name
+docker start [my_container_name]
 ```
 
 ### List all containers
@@ -74,11 +69,35 @@ Container information including container ID, IMAGE, status, ports, name etc is 
 docker ps --all
 ```
 
+### List only container IDs
+```powershell
+docker ps -aq
+```
+
+### Stop a container
+```powershell
+docker stop [my_container_name]
+```
+
+### remove a container
+Ensure that container is already stopped using preivous commands 
+```powershell
+docker rm [my_container_name]
+```
+
 ### stop all containers at once
 To stop all containers are once, we can capture all container IDs into a shell variable and stop all containers in one go.
 ```powershell
 docker stop $(docker ps -aq)
 ```
+
+### remove all containers
+Ensure that containers are already stopped using preivous commands 
+```powershell
+docker rm $(docker ps -aq)
+```
+
+## Operate with container
 
 ### Launch bash inside your linux based container
 If insalled docker has a shell program [bash, mysql, mongo etc.] installed, it can launched as shown below.
