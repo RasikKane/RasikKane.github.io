@@ -65,12 +65,25 @@ docker start your_Container_Name
 
 ### Stop a container
 ```powershell
-docker stop my_Container_Name
+docker stop my_container_name
+```
+
+### List all containers
+Container information including container ID, IMAGE, status, ports, name etc is displayed
+```powershell
+docker ps --all
+```
+
+### stop all containers at once
+To stop all containers are once, we can capture all container IDs into a shell variable and stop all containers in one go.
+```powershell
+docker stop $(docker ps -aq)
 ```
 
 ### Launch bash inside your linux based container
+If insalled docker has a shell program [bash, mysql, mongo etc.] installed, it can launched as shown below.
 ```powershell
-docker exec -it my_Container_Name bash
+docker exec -it my_container_name bash
 ```
 * docker run -i-t  enables us to detach with TTY (in this case, Bash) wih ctrl-P ctrl-Q and reattached with docker attach
 * docker run -i → cannot be detached with ctrl-P ctrl-Q; will disrupt stdin
