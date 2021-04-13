@@ -12,6 +12,9 @@ https://iframely.com/
 <h2><b><a href="https://github.com/RasikKane/dublin-bus-backend" target="_blank">Dublin Bus Journey time Prediction</a></b></h2>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/pZQOrLLX5no?rel=0" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture"></iframe></div>
 
+<h2><b><a href="https://github.com/RasikKane/IoT_Cattle_monitoring_system" target="_blank">IoT Cattle Monitoring System</a></b></h2>
+ Daily analysis of dairy animal health using On-Body wireless activity tracker and on-Campus image processing system<br>
+ 
 <h2><b><a href="https://github.com/RasikKane/Data-Science-and-Machine-learning/tree/master/EDA-Animal-Shelter" target="_blank">Mortality prediction at Texas animal Shelter</a></b></h2> 
 solves a prediction problem: Whether enrolled animal in Texas Animal Shelter shall live or not.<br>
 
@@ -30,3 +33,4 @@ Check the link to know how Naive Bays classifier mitigates a potential challenge
 <h2><b><a href="https://medium.com/@rasik.kane/unified-iot-ecosystem-539bb3a41d87" target="_blank">Unified IoT Ecosystem</a></b></h2>
 <a href="https://drive.google.com/file/d/11XP_9Xp39mMYtifTvg_aa_-IOxtwjSYm/view" target="_blank">TADHACK’17– India winner </a><br>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/kVgWxdBe9uk?rel=0" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media; accelerometer; clipboard-write; gyroscope; picture-in-picture"></iframe></div>
+

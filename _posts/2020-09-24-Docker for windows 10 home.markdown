@@ -52,7 +52,7 @@ launch you powershell / command prompt and create yuor environment.
 * open sourced docker images can be pulled from [docker hub](https://hub.docker.com/) 
 * The ```docker run``` command first creates a writeable container layer over the specified image, and then starts using it.
 ```powershell
-docker run -tid --name my_Container_Name docker_image_url
+docker run -tid --name [my_Container_Name] [docker_image_url]
 ```
 * -t : Allocate a pseudo-tty
 * -i : Keep STDIN open even if not attached
@@ -102,7 +102,7 @@ docker rm $(docker ps -aq)
 ### Launch bash inside your linux based container
 If insalled docker has a shell program [bash, mysql, mongo etc.] installed, it can launched as shown below.
 ```powershell
-docker exec -it my_container_name bash
+docker exec -it [my_container_name] bash
 ```
 * docker run -i-t  enables us to detach with TTY (in this case, Bash) wih ctrl-P ctrl-Q and reattached with docker attach
 * docker run -i → cannot be detached with ctrl-P ctrl-Q; will disrupt stdin
@@ -110,6 +110,6 @@ docker exec -it my_container_name bash
 
 ### move files between docker container and local machine
 ```powershell
-docker cp my_Container_Name:/path_to_myFile ./local_machine_path
+docker cp [my_Container_Name]:/[path_to_myFile] ./[local_machine_path]
 ```
 
